@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^2.15.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.0.0",
+    "framer-motion": "^12.42.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mssql": "^12.7.0",
+    "openai": "^7.3.0",
+    "recharts": "^3.10.1",
+    "sqlite3": "^5.1.7",
+    "stripe": "^22.4.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/api.test.js"
+  }
+}
